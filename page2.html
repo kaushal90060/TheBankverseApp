@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Secular+One&family=Source+Sans+Pro:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <img src="bankverseLogo.png" alt="Logo" class="logo" />
+      <p class="welcome" id="wlcm">Log into your account</p>
+      <form class="login">
+        <div class="user_name">
+          <input
+            type="text"
+            placeholder="Enter your username"
+            class="user_input pass"
+          />
+        </div>
+        <div class="user_Pass">
+          <input
+            type="password"
+            placeholder="Enter 4 digit pin"
+            class="user_pin pass"
+          />
+        </div>
+        <button class="login_btn">LOGIN</button>
+      </form>
+    </div>
+    <script>
+      const login = document.querySelector(".login_btn");
+      login.addEventListener("click", function () {
+        e.preventDefault();
+        console.log("Clicked button");
+      });
+    </script>
+  </body>
+</html>

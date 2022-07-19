@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Bankverse app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Top navigation -->
+
+    <div class="container">
+      <img src="bankverseLogo.png" alt="Logo" class="logo" />
+      <p class="welcome" id="wlcm">Log into your account</p>
+      <form class="login">
+        <div class="user_name">
+          <input
+            type="text"
+            placeholder="Enter your username"
+            class="user_input pass"
+          />
+        </div>
+        <div class="user_Pass">
+          <input
+            type="password"
+            placeholder="Enter 4 digit pin"
+            class="user_pin pass"
+          />
+        </div>
+        <div class="auth">You are authorised</div>
+        <button class="login_btn">LOGIN</button>
+      </form>
+    </div>
+
+    <!-- MAIN BALANCE PAGE -->
+    <h2 class="welcome1">Welcome</h2>
+    <main class="app">
+      <!-- BALANCE -->
+
+      <div class="balance">
+        <div>
+          <p class="balance_label">Current Balance</p>
+          <p class="balance_date">As of <span class="date">17/02/2022</span></p>
+        </div>
+        <p class="balancePara">
+          &#8377;<span class="balance_value">00000</span>
+        </p>
+      </div>
+
+      <!-- Movements -->
+      <div class="movements">
+        <div class="movements_row">
+          <div class="movements_type movements_deposit">2 deposits</div>
+          <div class="movements_date">3 days ago</div>
+          <div class="movements_value">&#8377; 000</div>
+        </div>
+        <div class="movements_row">
+          <div class="movements_type movements_withdrawal">1 withdrawal</div>
+          <div class="movements_date">15/02/2022</div>
+          <div class="movements_value">&#8377; -210</div>
+        </div>
+      </div>
+
+      <!-- SUMMARY -->
+      <div class="summary">
+        <p class="summary_label">In</p>
+        <p class="summary_value summary_value_in1">
+          &#8377;<span class="summary_value_in">0000</span>
+        </p>
+        <p class="summary_label">Out</p>
+        <p class="summary_value summary_value_out1">
+          &#8377;<span class="summary_value_out"> 0000</span>
+        </p>
+        <p class="summary_label">Interest</p>
+        <p class="summary_value summary_value_interest1">
+          &#8377; <span class="summary_value_interest"> 0000 </span>
+        </p>
+        <button class="btn_sort">&downarrow; SORT</button>
+      </div>
+
+      <!-- OPERATION : TRANSFER -->
+      <div class="operation operation_transfer">
+        <h2>Transfer Money</h2>
+        <form class="form form_transfer">
+          <label class="form_label">Transfer to</label>
+          <label class="form_label">Amount</label><br />
+          <input type="text" class="form_input form_input_to" />
+          <input type="number" class="form_input form_input_amount" />
+          <button class="form_btn form_btn_transfer">&rarr;</button>
+        </form>
+      </div>
+
+      <!-- OPERATION : LOAN -->
+      <div class="operation operation_loan">
+        <h2>Request Loan</h2>
+        <form class="form form_loan">
+          <label class="form_label form_label_loan">Amount</label>
+          <input type="number" class="form_input form_input_loan" />
+          <button class="form_btn form_btn_loan">&rarr;</button>
+        </form>
+      </div>
+
+      <!-- OPERATION : CLOSE -->
+      <div class="operation operation_close">
+        <h2>Close Account</h2>
+        <form class="form form_close">
+          <label class="form_label">Confirm Username</label>
+          <label class="form_label">Confirm PIN</label><br />
+          <input
+            type="text"
+            class="form_input form_input_user"
+            placeholder="Enter username"
+          />
+          <input
+            type="password"
+            maxlength="6"
+            class="form_input form_input_pin"
+            placeholder="Enter PIN"
+          />
+          <button class="form_btn form_btn_close">&rarr;</button>
+        </form>
+      </div>
+
+      <!-- LOGOUT TIMER -->
+      <p class="logout_timer">
+        You will be logged out in <span class="timer">05:00</span>
+      </p>
+      <button class="goback">Login Again</button>
+    </main>
+    <footer class="ftr">&copy;By Kaushal Pandit</footer>
+    <script src="script.js"></script>
+  </body>
+</html>

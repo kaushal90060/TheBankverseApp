@@ -1,0 +1,16 @@
+This section includes building of an app named Bankverse.
+-->The idea of this app is to take a username as input and password as 4 digit pin.
+--> Then a UI based new page will appear where all the functionality of banking transaction is appeared in which there all recent transactions (deposits and withdrawals) will be shown .
+--> There also is the functionality of sending or recieving funds in the app.
+-->Users can also take loan and that will be updated in the funds.
+--> There user can also close account by inserting username and pin.
+
+\\//
+---------------------------------------
+Apart from that you can learn lots of concepts from the javascripts like
+--> map() function
+--> filter() function
+--> split() function
+--> forEach() loop
+--> adding a new attribute in an object using object manipulation function
+--> 
