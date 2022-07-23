@@ -14,3 +14,5 @@ username and passwords provided according to their name as :
 --------------------------------------------------------------
 Please visit the link below to check the web application
 [TheBankverseApp -> Click here](https://kaushal90060.github.io/TheBankverseApp/)
+-------------------------------------------------------------------
+Preview of this application is 
