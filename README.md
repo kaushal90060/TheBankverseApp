@@ -15,6 +15,6 @@ username and passwords provided according to their name as :
 Please visit the link below to check the web application
 [TheBankverseApp -> Click here](https://kaushal90060.github.io/TheBankverseApp/)
 -------------------------------------------------------------------
-##Preview of this application is 
+## Preview of this application is 
 ![bankverse](https://user-images.githubusercontent.com/60690728/180619806-b311c4bb-4893-4535-ba4e-e40be8d09261.png)
 
